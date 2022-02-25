@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
       {imageName: 'frozen', title: 'Frozen food', cols: 1, rows: 1 },
       {imageName: 'service2', title: 'Services', cols: 1, rows: 1 },
       {imageName: 'pet', title: 'Pet care', cols: 1, rows: 1 },
-      {imageName: 'event3', title: 'Featured stores', cols: 4, rows: 3 }
+      {imageName: 'event3', title: 'Featured stores', cols: 4, rows: 4 }
     ],
     "webCards": [
       {imageName: 'udupi2', title: 'HOME', cols: 4, rows: 1 },
@@ -42,7 +42,7 @@ router.get('/', function(req, res, next) {
       {imageName: 'frozen', title: 'Frozen food', cols: 1, rows: 1 },
       {imageName: 'service2', title: 'Services', cols: 1, rows: 1 },
       {imageName: 'pet', title: 'Pet care', cols: 1, rows: 1 },
-      {imageName: 'event3', title: 'Featured stores', cols: 4, rows: 3 }
+      {imageName: 'event3', title: 'Featured stores', cols: 4, rows: 4 }
     ]
   };
   res.json(jsonresponce);
