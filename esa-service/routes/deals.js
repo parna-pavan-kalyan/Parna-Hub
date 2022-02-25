@@ -5,8 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   let jsonresponce = {
     "handsetCards": [
-      {imageName: 'udupi2', title: 'HOME', cols: 4, rows: 1 },
-      {imageName: 'aniv', title: 'POSTER', cols: 4, rows: 1 },
+      {imageName: 'udupi2', title: 'HOME', cols: 4, rows: 2 },
+      {imageName: 'aniv', title: 'POSTER', cols: 4, rows: 2 },
       {imageName: 'grocery', title: 'Grocery', cols: 1, rows: 1 },
       {imageName: 'veg', title: 'Veg food', cols: 1, rows: 1 },
       {imageName: 'street', title: 'Street food', cols: 1, rows: 1 },
@@ -22,11 +22,11 @@ router.get('/', function(req, res, next) {
       {imageName: 'frozen', title: 'Frozen food', cols: 1, rows: 1 },
       {imageName: 'service2', title: 'Services', cols: 1, rows: 1 },
       {imageName: 'pet', title: 'Pet care', cols: 1, rows: 1 },
-      {imageName: 'event3', title: 'Featured stores', cols: 4, rows: 4 }
+      {imageName: 'event3', title: 'Featured stores', cols: 4, rows: 3 }
     ],
     "webCards": [
-      {imageName: 'udupi2', title: 'HOME', cols: 4, rows: 1 },
-      {imageName: 'aniv', title: 'POSTER', cols: 4, rows: 1 },
+      {imageName: 'udupi2', title: 'HOME', cols: 4, rows: 2 },
+      {imageName: 'aniv', title: 'POSTER', cols: 4, rows: 2 },
       {imageName: 'grocery', title: 'Grocery', cols: 1, rows: 1 },
       {imageName: 'veg', title: 'Veg food', cols: 1, rows: 1 },
       {imageName: 'street', title: 'Street food', cols: 1, rows: 1 },
@@ -42,7 +42,7 @@ router.get('/', function(req, res, next) {
       {imageName: 'frozen', title: 'Frozen food', cols: 1, rows: 1 },
       {imageName: 'service2', title: 'Services', cols: 1, rows: 1 },
       {imageName: 'pet', title: 'Pet care', cols: 1, rows: 1 },
-      {imageName: 'event3', title: 'Featured stores', cols: 4, rows: 4 }
+      {imageName: 'event3', title: 'Featured stores', cols: 4, rows: 3 }
     ]
   };
   res.json(jsonresponce);
